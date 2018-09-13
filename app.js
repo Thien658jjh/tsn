@@ -7,6 +7,7 @@ let express = require('express'),
     path = require('path'),
     html = require('express-handlebars'),
     bodyParser = require('body-parser'),
+    port = process.env.PORT || config.__port_server,
     server = require('http').Server(app);
 
 // Config mongoose
@@ -46,7 +47,5 @@ let appRoute = require('./routes/appRoute')(app),
     storyRoute = require('./routes/storyRoute')(app)
 
 // App listen lnfo
-var port = process.env.PORT || 8000;
-server.listen(port, function() {
-    console.log("App is running on port " + port);
-});
+app.listen(port)
+console.log('App has been connected from port: ' + port)
