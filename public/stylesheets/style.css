@@ -1,0 +1,578 @@
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  max-width: 1100px;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: #100C85;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active a:link {
+  color: #100F85;
+  text-decoration: none;
+}
+/* 
+h1,
+h3,
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2,
+h4,
+h6 {
+  font-weight: bold;
+} */
+
+.image-detail {
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.container {
+  background-color: rgb(255, 255, 249);
+  padding: 0 !important;
+}
+
+.my-container-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my-container-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.my-div {
+  margin: 10px 0px;
+}
+
+.my-footer {
+  padding: 13px;
+  color: white;
+  background-color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+  margin-top: 50px;
+}
+
+.my-title-header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 160, 0);
+  letter-spacing: 1px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.form-control {
+  color: black;
+  font-size: 1em;
+}
+
+.my-font-title {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.my-text-bold {
+  font-weight: bold;
+}
+
+
+/* ----------   MODAL CUSTOM -----------  */
+
+.my-modal-dialog {
+  overflow-y: initial !important
+}
+
+.my-modal-header {
+  padding: 30px 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.my-modal-content {
+  border-radius: 15px;
+}
+
+.my-modal-body {
+  margin: 0px 30px;
+  overflow-y: auto;
+  /* scroll in modal */
+}
+
+/* ---------------   HEADER PAGE   -------------------  */
+
+.my-header-page {
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-family: 'Righteous', cursive;
+  background-color: black;
+  padding: 1px;
+}
+
+.my-header-page a {
+  text-decoration: none;
+}
+
+.my-top-header-text {
+  margin-left: 25px;
+}
+
+/*----------------  NAVBAR CUSTOM  --------------*/
+
+.navbar-custom {
+  border-radius: 0px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  font-size: 0.9em;
+}
+
+.my-containter-full {
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.2em;
+  border: none;
+  color: white;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  border: none;
+  color: white;
+  background: rgba(0, 150, 0, 0.9);
+}
+
+.navbar-custom .navbar-nav li a,
+.my-dropdown-item {
+  border: none;
+  color: white;
+}
+
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active,
+.navbar-custom .navbar-nav li.active a {
+  border: none;
+  color: white;
+}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  border: none;
+  color: white;
+  background: rgba(0, 150, 0, 0.9);
+}
+
+.navbar-custom .navbar-toggle {
+  border: none;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  border: none;
+  background-color: rgba(0, 150, 0, 0.9);
+  color: white;
+}
+
+.navbar-nav li:hover {
+  border: none;
+  background-color: rgba(0, 150, 0, 0.9);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar-nav li:hover>a:hover {
+  border: none;
+  color: white;
+}
+
+.navbar-nav a img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  object-fit: cover;
+}
+
+
+/* co thanh lại khi scroll  */
+
+.my-shrink-nav {
+  /* margin-top: 0px; */
+  /* padding-top: 0px; */
+  font-size: 0.8em;
+  background: rgba(0, 0, 0, 1);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5;
+  transition: all 0.5;
+}
+
+
+/* Dropdown in Menu  */
+
+.dropdown-toggle:active,
+.open .dropdown-toggle {
+  background: rgba(0, 150, 0, 0.9) !important;
+  color: white !important;
+}
+
+.my-dropdown-menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  width: 260px !important;
+}
+
+.my-dropdown-menu a {
+  text-decoration: none;
+}
+
+.my-menu-item {
+  padding: 10px 0px 10px 20px;
+}
+
+.my-menu-item:hover,
+.my-menu-item:focus,
+.my-menu-item:active {
+  background-color: rgba(0, 150, 0, 0.9);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.my-drop-down:hover {
+  background-color: transparent !important;
+}
+
+
+/* co dropmenu lại khi scroll  */
+
+.my-shrink-dropdown-menu {
+  font-size: 1em;
+  background: rgba(0, 0, 0, 1);
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1;
+  transition: all 0.1;
+}
+
+
+/* INPUT SEARCH ON NAVBAR  */
+
+.input-search {
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  align-self: center;
+  font-size: 1.1em;
+  margin: 8px 0px;
+  /* width: 0px;  */
+  /* background-color: inherit; */
+  display: none;
+  border: none;
+  width: 250px;
+  /* display: block; */
+  background-color: white;
+}
+
+.li-icon {
+  font-size: 1.4em;
+}
+
+.li-input-search {
+  margin-left: 10px;
+}
+
+.li-input-search:hover {
+  background-color: transparent !important;
+}
+
+/* ----------- ICON SCROLL TO TOP ---------------*/
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: none;
+  z-index: 1;
+  opacity: 0.7;
+}
+.my-font-title{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#scroll-to-top img {
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#scroll-to-top:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+/* ------------  FORMAT INPUT ------------- */
+
+
+/*clear button close  */
+
+input[type="month"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="time"]::-ms-clear {
+  display: none;
+}
+
+
+/* hide input number arrow up/down  */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+.my-title-film {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.my-create-film {
+  margin-bottom: 100px;
+  color: black;
+}
+
+.my-upload-image img {
+  width: 95%;
+  height: 320px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  /* object-fit: cover; */
+}
+
+.my-upload-image img:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+
+.my-btn {
+  font-size: 1.1em;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+
+.box-shadow {
+  box-shadow: 0 9px 0px 0px rgba(173, 173, 173, 0), 0 -9px 0px 0px rgba(255, 255, 255, 0), 22px 0 25px -7px rgba(15, 35, 59, 0.8), -22px 0 25px -7px rgba(15, 35, 59, 0.8);
+}
+
+.my-btn:hover {
+  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+}
+
+.my-bot-form {
+  padding-top: 50px;
+}
+
+.inline {
+  display: inline-block !important;
+}
+
+.my-input-film {
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.my-form-film .form-group h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.my-select-film {
+  padding: 16px 10px;
+}
+
+.my-portfolio {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.my-portfolio-item {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 0px 15px;
+  justify-content: center;
+}
+
+.my-portfolio-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.detail {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0px 15px;
+}
+
+.name-film {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.content-film {
+  font-size: 1em;
+  font-weight: normal;
+  visibility: hidden;
+  padding-top: 5px;
+  word-wrap: break-word;
+}
+
+.hr-film {
+  padding: 0px;
+  margin: 0px;
+  visibility: hidden;
+}
+
+.detail:hover {
+  height: 100%;
+  background-color: rgba(66, 65, 77, 0.849);
+  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+}
+
+.detail:hover>.content-film,
+.detail:hover>.hr-film {
+  visibility: visible;
+}
+
+
+/* ----------   NO SEARCH FILM ------------  */
+
+.my-result-search h1 {
+  color: rgb(0, 160, 0);
+  margin-bottom: 50px;
+}
+
+.my-result-search h4 {
+  margin-bottom: 110px;
+  line-height: 2;
+}
+.my-a {
+  padding: 0px !important;
+  height: 70px;
+  padding-top: 10px !important;
+  font-size: 17px !important;
+  font-weight: 800;
+}
+.my-nav {
+  padding: 0px !important;
+  height: 70px;
+}
+
+.my-detail {
+  padding: 15px !important;
+  height: 100%;
+}
+
+.my-detail-film p {
+  line-height: 160%;
+  font-size: 1.1em;
+  color: black;
+  text-align: justify;
+}
+
+.my-detail-film h4 {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: black;
+}
+
+.my-detail-film {
+  margin-bottom: 100px;
+}
+
+.my-detail-image img {
+  width: 95%;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.my-detail-image img:hover {
+  opacity: 1;
+  border-radius: 0px;
+  transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+
+.title-name-film {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.my-modal-image {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.my-modal-image img {
+  height: 90%;
+}
