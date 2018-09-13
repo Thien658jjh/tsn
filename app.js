@@ -1,4 +1,5 @@
 // Set timezone: Asia
+process.env.TZ = 'Asia/Ho_Chi_Minh'
 // Config app server
 let express = require('express'),
     config = require('./config/apiConfig').CONFIG_API,
